@@ -1,0 +1,230 @@
+{
+    "name": "CallFire",
+    "description": "Grow your business with virtual phone numbers, IVR, voice broadcasting, mass text messaging services and power dialing. Try CallFire for FREE!",
+    "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/11768-callfire.jpg",
+    "tags": [
+        "api provider",
+        "getting started example",
+        "have api",
+        "have swagger",
+        "messages",
+        "relative data",
+        "service api",
+        "telecommunications"
+    ],
+    "created": "2019-12-19",
+    "modified": "2019-12-19",
+    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/callfire\/master\/apis.json",
+    "specificationVersion": "0.14",
+    "apis": [
+        {
+            "name": "CallFire",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/11768-callfire.jpg",
+            "humanURL": "http:\/\/www.callfire.com",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/callfire.json"
+                },
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/callfire-openapi.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/callfire-postman-collection.json"
+                }
+            ]
+        }
+    ],
+    "include": [],
+    "x-common": [
+        {
+            "type": ".NET SDK",
+            "url": "https:\/\/github.com\/CallFire\/CallFire-CSharp-SDK"
+        },
+        {
+            "type": "Account Billing",
+            "url": "https:\/\/answers.callfire.com\/hc\/en-us\/sections\/200166268-Billing"
+        },
+        {
+            "type": "Account Settings",
+            "url": "https:\/\/answers.callfire.com\/hc\/en-us\/sections\/200187056-Account-Settings"
+        },
+        {
+            "type": "Authentication",
+            "url": "https:\/\/www.callfire.com\/api-documentation\/how-do-i-enable-api-on-my-account"
+        },
+        {
+            "type": "Blog",
+            "url": "https:\/\/www.callfire.com\/blog"
+        },
+        {
+            "type": "Blog RSS",
+            "url": "https:\/\/www.callfire.com\/blog\/feed"
+        },
+        {
+            "type": "Twitter",
+            "url": "https:\/\/twitter.com\/CallFire"
+        },
+        {
+            "type": "Case Studies",
+            "url": "https:\/\/www.callfire.com\/case-studies"
+        },
+        {
+            "type": "Compliance",
+            "url": "https:\/\/www.callfire.com\/legal\/compliance"
+        },
+        {
+            "type": "Contact Form",
+            "url": "https:\/\/www.callfire.com\/contact"
+        },
+        {
+            "type": "Crunchbase",
+            "url": "https:\/\/www.crunchbase.com\/organization\/callfire"
+        },
+        {
+            "type": "Crunchbase",
+            "url": "https:\/\/crunchbase.com\/organization\/callfire"
+        },
+        {
+            "type": "Developers",
+            "url": "https:\/\/www.callfire.com\/api-documentation"
+        },
+        {
+            "type": "Documentation",
+            "url": "https:\/\/www.callfire.com\/api-documentation\/rest\/version\/1.1"
+        },
+        {
+            "type": "Drupal Plugin",
+            "url": "https:\/\/github.com\/CallFire\/CallFire-Drupal-Integration"
+        },
+        {
+            "type": "Email",
+            "url": "answers@callfire.com"
+        },
+        {
+            "type": "Email",
+            "url": "support@callfire.com"
+        },
+        {
+            "type": "Facebook",
+            "url": "https:\/\/www.facebook.com\/callfire"
+        },
+        {
+            "type": "FAQ",
+            "url": "https:\/\/answers.callfire.com\/hc\/en-us\/sections\/200193833-FAQs"
+        },
+        {
+            "type": "Getting Started",
+            "url": "https:\/\/www.callfire.com\/help\/docs\/getting-started"
+        },
+        {
+            "type": "Github",
+            "url": "https:\/\/github.com\/callfire"
+        },
+        {
+            "type": "Glossary",
+            "url": "https:\/\/www.callfire.com\/help\/glossary\/communications"
+        },
+        {
+            "type": "Google Plus",
+            "url": "https:\/\/plus.google.com\/100142045997033051154"
+        },
+        {
+            "type": "Messages",
+            "url": "https:\/\/www.callfire.com\/ui\/number\/messages?6"
+        },
+        {
+            "type": "Swagger",
+            "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-definitions\/swagger\/11768-2019-09-04-10-28-55.json"
+        },
+        {
+            "type": "Swagger",
+            "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-definitions\/swagger\/11768-2019-09-04-10-29-06.json"
+        },
+        {
+            "type": "Swagger",
+            "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-definitions\/swagger\/11768-2019-09-04-10-29-16.json"
+        },
+        {
+            "type": "Swagger",
+            "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-definitions\/swagger\/11768-2019-09-04-10-29-26.json"
+        },
+        {
+            "type": "Swagger",
+            "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-definitions\/swagger\/11768-2019-09-04-10-29-54.json"
+        },
+        {
+            "type": "Swagger",
+            "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-definitions\/swagger\/11768-2019-09-04-06-36-02.json"
+        },
+        {
+            "type": "Swagger",
+            "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-definitions\/swagger\/11768-2019-09-04-10-28-35.json"
+        },
+        {
+            "type": "Partners",
+            "url": "https:\/\/www.callfire.com\/partners"
+        },
+        {
+            "type": "Phone",
+            "url": "1.877.897.3473"
+        },
+        {
+            "type": "PHP SDK",
+            "url": "https:\/\/github.com\/CallFire\/CallFire-PHP-SDK"
+        },
+        {
+            "type": "Pricing",
+            "url": "https:\/\/www.callfire.com\/pricing"
+        },
+        {
+            "type": "Privacy",
+            "url": "https:\/\/www.callfire.com\/legal\/privacy"
+        },
+        {
+            "type": "Registration",
+            "url": "https:\/\/www.callfire.com\/ui\/register?1"
+        },
+        {
+            "type": "Terms of Service",
+            "url": "https:\/\/www.callfire.com\/legal\/terms"
+        },
+        {
+            "type": "Tickets",
+            "url": "https:\/\/answers.callfire.com\/hc\/en-us\/requests\/new"
+        },
+        {
+            "type": "Tour",
+            "url": "javascript:;"
+        },
+        {
+            "type": "Videos",
+            "url": "https:\/\/answers.callfire.com\/hc\/en-us\/articles\/200849247-Videos"
+        },
+        {
+            "type": "Webinars",
+            "url": "https:\/\/answers.callfire.com\/hc\/en-us\/articles\/202174798-Webinars"
+        },
+        {
+            "type": "Website",
+            "url": "http:\/\/www.callfire.com"
+        },
+        {
+            "type": "WordPress Plugin",
+            "url": "https:\/\/github.com\/CallFire\/CallFire-WordPress-Integration"
+        },
+        {
+            "type": "Youtube",
+            "url": "https:\/\/www.youtube.com\/user\/CallFireTelephony"
+        },
+        {
+            "type": "Zapier",
+            "url": "https:\/\/zapier.com\/zapbook\/callfire\/"
+        }
+    ]
+}
