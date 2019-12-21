@@ -1,5 +1,5 @@
 {
-    "id": "da6aeaee95dbf569fdf9d1db6ca4b9ce",
+    "id": "001610cd8bdced5609bc4dfcccc12f9d",
     "name": "CallFire",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "73bbbb09f0183fb9848873e3b3f513d9",
+            "id": "89bd5f132efe33f8bd10f031aea46653",
             "name": "Find calls",
             "url": "httpswww.callfire.com\/v2\/calls",
             "description": "To search for all calls sent or received by the user. Use \"id=0\" for the campaignId parameter to query for all calls sent through the POST \/calls API. See [call states and results](https:\/\/developers.callfire.com\/results-responses-errors.html)",
@@ -128,11 +128,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da6aeaee95dbf569fdf9d1db6ca4b9ce",
+            "collectionId": "001610cd8bdced5609bc4dfcccc12f9d",
             "rawModeData": ""
         },
         {
-            "id": "b8fd2899f6be0013a0d838f5d513248f",
+            "id": "1076e359a4b859800e33e4670ca47c0e",
             "name": "Send calls",
             "url": "httpswww.callfire.com\/v2\/calls",
             "description": "Use the \/calls API to send individual calls quickly. A verified Caller ID and sufficient credits are required to make a call. CallRecipient represents a single recipient identified by phone number or contact id in CallFire system. You can attach user-defined attributes to a Call action via CallRecipient.attributes property, attributes are available in Call action response",
@@ -215,11 +215,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da6aeaee95dbf569fdf9d1db6ca4b9ce",
+            "collectionId": "001610cd8bdced5609bc4dfcccc12f9d",
             "rawModeData": ""
         },
         {
-            "id": "df101322310e99940d950fd5f404e99c",
+            "id": "7c7b884c7643f6669d3d2e99e56aa7eb",
             "name": "Find call broadcasts",
             "url": "httpswww.callfire.com\/v2\/calls\/broadcasts",
             "description": "Searches for all voice broadcasts created by user. Can query on label, name, and the current running status of the campaign. Returns a paged list of voice broadcasts",
@@ -281,11 +281,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da6aeaee95dbf569fdf9d1db6ca4b9ce",
+            "collectionId": "001610cd8bdced5609bc4dfcccc12f9d",
             "rawModeData": ""
         },
         {
-            "id": "b2f284f58f550fb777e45bbe2ba29c10",
+            "id": "23a6f2e5111eb955fd58971ffedee725",
             "name": "Create a call broadcast",
             "url": "httpswww.callfire.com\/v2\/calls\/broadcasts",
             "description": "Creates a call broadcast campaign using the Call Broadcast API. Send a CallBroadcast in the message body to add details in a voice broadcast campaign. The campaign can be created without contacts and bare minimum configuration, but contacts will have to be added further on to use the campaign",
@@ -326,11 +326,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da6aeaee95dbf569fdf9d1db6ca4b9ce",
+            "collectionId": "001610cd8bdced5609bc4dfcccc12f9d",
             "rawModeData": ""
         },
         {
-            "id": "27b765b5abe1d7d8692b8c855619b74c",
+            "id": "a70498b2ee77ff3e766dcb67cae8eb4a",
             "name": "Find a specific call broadcast",
             "url": "httpswww.callfire.com\/v2\/calls\/broadcasts\/{id}",
             "description": "Returns a single CallBroadcast instance for a given call broadcast campaign id",
@@ -364,11 +364,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da6aeaee95dbf569fdf9d1db6ca4b9ce",
+            "collectionId": "001610cd8bdced5609bc4dfcccc12f9d",
             "rawModeData": ""
         },
         {
-            "id": "931c84429e78712ca882a2ce1aa58a5c",
+            "id": "f377b02ddccb363763b2735f910eb0ba",
             "name": "Update a call broadcast",
             "url": "httpswww.callfire.com\/v2\/calls\/broadcasts\/{id}",
             "description": "This operation lets the user modify the configuration of a voice broadcast campaign after call broadcast campaign is created. See CallBroadcast for more information on what can\/can't be updated on this API",
@@ -409,11 +409,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da6aeaee95dbf569fdf9d1db6ca4b9ce",
+            "collectionId": "001610cd8bdced5609bc4dfcccc12f9d",
             "rawModeData": ""
         },
         {
-            "id": "711eb08f7ac8a0819587a77506b97ea1",
+            "id": "706280f1a469855b5eed9c5bd920a07b",
             "name": "Archive voice broadcast",
             "url": "httpswww.callfire.com\/v2\/calls\/broadcasts\/{id}\/archive",
             "description": "Archives a voice broadcast (voice broadcast will be hidden in search results)",
@@ -440,11 +440,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da6aeaee95dbf569fdf9d1db6ca4b9ce",
+            "collectionId": "001610cd8bdced5609bc4dfcccc12f9d",
             "rawModeData": ""
         },
         {
-            "id": "eb13b2229ff983d91004b75bfd5f339e",
+            "id": "7ace2428d09fa90c51eeb3ecdfc57304",
             "name": "Find batches in a call broadcast",
             "url": "httpswww.callfire.com\/v2\/calls\/broadcasts\/{id}\/batches",
             "description": "This endpoint will enable the user to page through all of the batches for a particular voice broadcast campaign",
@@ -492,11 +492,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da6aeaee95dbf569fdf9d1db6ca4b9ce",
+            "collectionId": "001610cd8bdced5609bc4dfcccc12f9d",
             "rawModeData": ""
         },
         {
-            "id": "96aa35bdd934549c4bd308c0eb577986",
+            "id": "0f61b076024d03c33cc561a264b528e0",
             "name": "Add batches to a call broadcast",
             "url": "httpswww.callfire.com\/v2\/calls\/broadcasts\/{id}\/batches",
             "description": "The 'add batch' API allows user to add additional batches to an already created voice broadcast campaign. The added batch will go through the CallFire validation process, unlike in the recipients version of this API. That is why you can use the scrubDuplicates flag to remove duplicates from your batch. Batches may be added as a contact list id, a list of contact ids, or a list of numbers",
@@ -537,11 +537,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da6aeaee95dbf569fdf9d1db6ca4b9ce",
+            "collectionId": "001610cd8bdced5609bc4dfcccc12f9d",
             "rawModeData": ""
         },
         {
-            "id": "68e3693a2160e0eb20ee16b514f4b053",
+            "id": "87b43c54f48393190164e694ce8d5f13",
             "name": "Find calls in a call broadcast",
             "url": "httpswww.callfire.com\/v2\/calls\/broadcasts\/{id}\/calls",
             "description": "This endpoint will enable the user to page through all calls for a particular call broadcast campaign",
@@ -596,11 +596,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da6aeaee95dbf569fdf9d1db6ca4b9ce",
+            "collectionId": "001610cd8bdced5609bc4dfcccc12f9d",
             "rawModeData": ""
         },
         {
-            "id": "07b69c48cac07b8023944aa84b59d351",
+            "id": "b532c4c00643cbd5ddac074457fc7a00",
             "name": "Add recipients to a call broadcast",
             "url": "httpswww.callfire.com\/v2\/calls\/broadcasts\/{id}\/recipients",
             "description": "Use this API to add the recipients to an existing voice broadcast. Post a list of Recipient objects to be added to the voice broadcast campaign. These contacts will not go through validation process, and will be acted upon as they are added. Recipients may be added as a list of contact ids, or list of numbers",
@@ -648,11 +648,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da6aeaee95dbf569fdf9d1db6ca4b9ce",
+            "collectionId": "001610cd8bdced5609bc4dfcccc12f9d",
             "rawModeData": ""
         },
         {
-            "id": "1e6d85b31c3910448e6dbc7afcedbe4f",
+            "id": "b1b9e837b13fe763b4b3caf0e8787e27",
             "name": "Start voice broadcast",
             "url": "httpswww.callfire.com\/v2\/calls\/broadcasts\/{id}\/start",
             "description": "Start a voice broadcast",
@@ -679,11 +679,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da6aeaee95dbf569fdf9d1db6ca4b9ce",
+            "collectionId": "001610cd8bdced5609bc4dfcccc12f9d",
             "rawModeData": ""
         },
         {
-            "id": "e59c47dcd7fd5ade8d702d0b61e9c1a7",
+            "id": "bdc8b47360b8796b31bc53d7dc61eee7",
             "name": "Get statistics on call broadcast",
             "url": "httpswww.callfire.com\/v2\/calls\/broadcasts\/{id}\/stats",
             "description": "Returns broadcast statistics like total number of sent\/received actions, total cost, number of remaining outbound actions, error count, etc",
@@ -731,11 +731,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da6aeaee95dbf569fdf9d1db6ca4b9ce",
+            "collectionId": "001610cd8bdced5609bc4dfcccc12f9d",
             "rawModeData": ""
         },
         {
-            "id": "4c7d5c5f3cbdbe6fa053708d3af47d0f",
+            "id": "56eb11b74941b2309ed59af8d45bba8d",
             "name": "Stop voice broadcast",
             "url": "httpswww.callfire.com\/v2\/calls\/broadcasts\/{id}\/stop",
             "description": "Stop a voice broadcast",
@@ -762,11 +762,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da6aeaee95dbf569fdf9d1db6ca4b9ce",
+            "collectionId": "001610cd8bdced5609bc4dfcccc12f9d",
             "rawModeData": ""
         },
         {
-            "id": "867ba38c8e2b6b2bc95a423c1c625712",
+            "id": "3f6742bbecce3454145f3a1616f108c2",
             "name": "Get call recording by id",
             "url": "httpswww.callfire.com\/v2\/calls\/recordings\/{id}",
             "description": "Returns metadata of recording of a particular call. Metadata contains a link to a MP3 recording",
@@ -800,11 +800,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da6aeaee95dbf569fdf9d1db6ca4b9ce",
+            "collectionId": "001610cd8bdced5609bc4dfcccc12f9d",
             "rawModeData": ""
         },
         {
-            "id": "0b9fc2979293274f60ce7df69237afe4",
+            "id": "e02475677781fec0d948df41a820fb17",
             "name": "Get call recording in mp3 format",
             "url": "httpswww.callfire.com\/v2\/calls\/recordings\/{id}.mp3",
             "description": "Returns an MP3 recording of particular call, response contains binary data, content type is 'audio\/mpeg'",
@@ -831,11 +831,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da6aeaee95dbf569fdf9d1db6ca4b9ce",
+            "collectionId": "001610cd8bdced5609bc4dfcccc12f9d",
             "rawModeData": ""
         },
         {
-            "id": "3efdda2ce4101da4115e8bfacc996276",
+            "id": "f7080a1a851dfbc4a7cbdf2633562742",
             "name": "Find a specific call",
             "url": "httpswww.callfire.com\/v2\/calls\/{id}",
             "description": "Returns a single Call instance for a given call id.",
@@ -869,11 +869,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da6aeaee95dbf569fdf9d1db6ca4b9ce",
+            "collectionId": "001610cd8bdced5609bc4dfcccc12f9d",
             "rawModeData": ""
         },
         {
-            "id": "03509c68001f79fd5d804e25153c5f75",
+            "id": "972720e505fc1931710324579d1c024d",
             "name": "Get call recordings for a call",
             "url": "httpswww.callfire.com\/v2\/calls\/{id}\/recordings",
             "description": "Returns a list of recordings metadata of particular call. Metadata contains link to a MP3 recording",
@@ -907,11 +907,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da6aeaee95dbf569fdf9d1db6ca4b9ce",
+            "collectionId": "001610cd8bdced5609bc4dfcccc12f9d",
             "rawModeData": ""
         },
         {
-            "id": "d76009c764fb459c6dc53da4c04b89d9",
+            "id": "c89a690ad3bcc0b83a2074f159438aeb",
             "name": "Get call recording by name",
             "url": "httpswww.callfire.com\/v2\/calls\/{id}\/recordings\/{name}",
             "description": "Returns recording metadata of particular call. Metadata contains link to a MP3 recording",
@@ -952,11 +952,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da6aeaee95dbf569fdf9d1db6ca4b9ce",
+            "collectionId": "001610cd8bdced5609bc4dfcccc12f9d",
             "rawModeData": ""
         },
         {
-            "id": "08d03aa0321a3a6fd2e2004be3116c37",
+            "id": "15cff62c826bb5489ffc8e7793895d26",
             "name": "Get call mp3 recording by name",
             "url": "httpswww.callfire.com\/v2\/calls\/{id}\/recordings\/{name}.mp3",
             "description": "Returns a MP3 recording of a particular call, response contains binary data, content type is 'audio\/mpeg'",
@@ -990,11 +990,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da6aeaee95dbf569fdf9d1db6ca4b9ce",
+            "collectionId": "001610cd8bdced5609bc4dfcccc12f9d",
             "rawModeData": ""
         },
         {
-            "id": "a8a4104773a07b7ce5c3f09b52a8e4ac",
+            "id": "49709355301dd397daddcecabfb74602",
             "name": "Find a specific batch",
             "url": "httpswww.callfire.com\/v2\/campaigns\/batches\/{id}",
             "description": "Returns a single Batch instance for a given batch id. This API is useful for determining the state of a validating batch",
@@ -1028,11 +1028,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da6aeaee95dbf569fdf9d1db6ca4b9ce",
+            "collectionId": "001610cd8bdced5609bc4dfcccc12f9d",
             "rawModeData": ""
         },
         {
-            "id": "4aa1b538a3d1d37c168cfe613506c112",
+            "id": "b59feb2485260d78b871f6f3edf5d48e",
             "name": "Update a batch",
             "url": "httpswww.callfire.com\/v2\/campaigns\/batches\/{id}",
             "description": "Updates a single Batch instance, currently batch can only be turned \"on\/off\"",
@@ -1066,11 +1066,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da6aeaee95dbf569fdf9d1db6ca4b9ce",
+            "collectionId": "001610cd8bdced5609bc4dfcccc12f9d",
             "rawModeData": ""
         },
         {
-            "id": "f36dc84ec0c1a5410ae381664171c023",
+            "id": "89c896e0c374a8e1c32dbecf2d6c4e8c",
             "name": "Find sounds",
             "url": "httpswww.callfire.com\/v2\/campaigns\/sounds",
             "description": "To find all campaign sounds which were created by user. Returns all sounds available to be used in campaigns",
@@ -1139,11 +1139,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da6aeaee95dbf569fdf9d1db6ca4b9ce",
+            "collectionId": "001610cd8bdced5609bc4dfcccc12f9d",
             "rawModeData": ""
         },
         {
-            "id": "fa3d7710d9519f6ad7a9d10786c4eda0",
+            "id": "5d73ed7e65211920a2e96a29c4ad3de4",
             "name": "Add sound via call",
             "url": "httpswww.callfire.com\/v2\/campaigns\/sounds\/calls",
             "description": "Use this API to create a sound via a phone call. Provide the required phone number in the CallCreateSound object inside the request, and user will receive a call shortly after with instructions on how to record a sound over the phone.",
@@ -1177,11 +1177,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da6aeaee95dbf569fdf9d1db6ca4b9ce",
+            "collectionId": "001610cd8bdced5609bc4dfcccc12f9d",
             "rawModeData": ""
         },
         {
-            "id": "fe34e2ca67e256ec7447def4d8b7ddd8",
+            "id": "223bc86258b31e625493c1632b01b08e",
             "name": "Add sound via file",
             "url": "httpswww.callfire.com\/v2\/campaigns\/sounds\/files",
             "description": "Create a campaign sound file via a supplied .mp3 or .wav file",
@@ -1222,11 +1222,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da6aeaee95dbf569fdf9d1db6ca4b9ce",
+            "collectionId": "001610cd8bdced5609bc4dfcccc12f9d",
             "rawModeData": ""
         },
         {
-            "id": "ba408009ff3ddd68643f596497a9ae41",
+            "id": "44f957269032de362ae9c59e1bb6e00c",
             "name": "Add sound via text-to-speech",
             "url": "httpswww.callfire.com\/v2\/campaigns\/sounds\/tts",
             "description": "Use this API to create a sound file via a supplied string of text. Add a text in the TextToSpeech.message field, and pick a voice in the TextToSpeech.voice field. Available voices are: MALE1, FEMALE1, FEMALE2, SPANISH1, FRENCHCANADIAN1",
@@ -1260,11 +1260,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da6aeaee95dbf569fdf9d1db6ca4b9ce",
+            "collectionId": "001610cd8bdced5609bc4dfcccc12f9d",
             "rawModeData": ""
         },
         {
-            "id": "8bb85ed1f71e333184cabdf7d4455094",
+            "id": "1738c5fe5c15631b926f42817f64c7f2",
             "name": "Delete a specific sound",
             "url": "httpswww.callfire.com\/v2\/campaigns\/sounds\/{id}",
             "description": "Deletes a single campaign sound instance for a specific campaign sound id, this operation does not delete sound completely, it sets sound status to ARCHIVED which means that sound will no longer appear in 'find' operation results, but still accessible via 'get' operation",
@@ -1291,11 +1291,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da6aeaee95dbf569fdf9d1db6ca4b9ce",
+            "collectionId": "001610cd8bdced5609bc4dfcccc12f9d",
             "rawModeData": ""
         },
         {
-            "id": "1afcadac1597d7003736634fcbade97d",
+            "id": "2a38ecbabcc8e6e1167dd066409a9a9e",
             "name": "Find a specific sound",
             "url": "httpswww.callfire.com\/v2\/campaigns\/sounds\/{id}",
             "description": "Returns a single CampaignSound instance for a given sound id in campaign. This is a meta data to the sounds. No audio data is returned from this API",
@@ -1329,11 +1329,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da6aeaee95dbf569fdf9d1db6ca4b9ce",
+            "collectionId": "001610cd8bdced5609bc4dfcccc12f9d",
             "rawModeData": ""
         },
         {
-            "id": "3c0d0d3703b50608bf51350b6305ea9a",
+            "id": "55a58456c151d6c05e5908fd9452d5b0",
             "name": "Download a MP3 sound",
             "url": "httpswww.callfire.com\/v2\/campaigns\/sounds\/{id}.mp3",
             "description": "Download the MP3 version of a hosted file. This is an audio data endpoint. Returns binary response of the 'audio\/mpeg' content type",
@@ -1360,11 +1360,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da6aeaee95dbf569fdf9d1db6ca4b9ce",
+            "collectionId": "001610cd8bdced5609bc4dfcccc12f9d",
             "rawModeData": ""
         },
         {
-            "id": "dd8ffdc229409550655c10d8687b0dca",
+            "id": "423d665b4b33b0bcbd5e321dd87f0338",
             "name": "Download a WAV sound",
             "url": "httpswww.callfire.com\/v2\/campaigns\/sounds\/{id}.wav",
             "description": "Download the WAV version of the hosted file. This is an audio data endpoint. Returns binary response of the 'audio\/mpeg' content type",
@@ -1391,11 +1391,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da6aeaee95dbf569fdf9d1db6ca4b9ce",
+            "collectionId": "001610cd8bdced5609bc4dfcccc12f9d",
             "rawModeData": ""
         },
         {
-            "id": "f368874e022ca927ef0a0f0f42a03628",
+            "id": "5c5265d355350c1250fb3f3967da3008",
             "name": "Find contacts",
             "url": "httpswww.callfire.com\/v2\/contacts",
             "description": "Find user's contacts by id, contact list, or on any property name. Returns a paged list of contacts",
@@ -1471,11 +1471,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da6aeaee95dbf569fdf9d1db6ca4b9ce",
+            "collectionId": "001610cd8bdced5609bc4dfcccc12f9d",
             "rawModeData": ""
         },
         {
-            "id": "a5c7f252574bd01f8c7d3fb350a4ba33",
+            "id": "61b381259bece5e74b12a176c3d53b19",
             "name": "Create contacts",
             "url": "httpswww.callfire.com\/v2\/contacts",
             "description": "Creates contacts in CallFire system. These contacts are not validated on creation. They will be validated upon being added to a campaign",
@@ -1502,11 +1502,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da6aeaee95dbf569fdf9d1db6ca4b9ce",
+            "collectionId": "001610cd8bdced5609bc4dfcccc12f9d",
             "rawModeData": ""
         },
         {
-            "id": "76110f43b046e8f0cf8f98bccfa2e21d",
+            "id": "377f898be4ad0d1ca2f3631590e65105",
             "name": "Find do not contact (dnc) items",
             "url": "httpswww.callfire.com\/v2\/contacts\/dncs",
             "description": "Searches for all Do Not Contact (DNC) objects created by user. These DoNotContact entries only affect calls\/texts\/campaigns on this account. Returns a paged list of DoNotContact objects",
@@ -1589,11 +1589,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da6aeaee95dbf569fdf9d1db6ca4b9ce",
+            "collectionId": "001610cd8bdced5609bc4dfcccc12f9d",
             "rawModeData": ""
         },
         {
-            "id": "dcf955edb5d1c961cf3ee3a79ac00ae0",
+            "id": "13fd3076861b82c553f5e496af0d21e5",
             "name": "Add or update do not contact (dnc) numbers",
             "url": "httpswww.callfire.com\/v2\/contacts\/dncs",
             "description": "Add or update a list of Do Not Contact (DNC) contact entries. Can toggle whether the DNCs are enabled for calls\/texts.",
@@ -1620,11 +1620,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da6aeaee95dbf569fdf9d1db6ca4b9ce",
+            "collectionId": "001610cd8bdced5609bc4dfcccc12f9d",
             "rawModeData": ""
         },
         {
-            "id": "097390c5c3af6a7f779836dc97be9916",
+            "id": "32e0ba1b42ef0dc69a206477b658a0fb",
             "name": "Delete do not contact (dnc) numbers contained in source.",
             "url": "httpswww.callfire.com\/v2\/contacts\/dncs\/sources\/{source}",
             "description": "Delete Do Not Contact (DNC) contact entries contained in source.",
@@ -1651,11 +1651,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da6aeaee95dbf569fdf9d1db6ca4b9ce",
+            "collectionId": "001610cd8bdced5609bc4dfcccc12f9d",
             "rawModeData": ""
         },
         {
-            "id": "e591bf617e57a51d1363bfc25d427789",
+            "id": "80de8202336b7a45498cf8d9f9175bf1",
             "name": "Find universal do not contacts (udnc) associated with toNumber",
             "url": "httpswww.callfire.com\/v2\/contacts\/dncs\/universals\/{toNumber}",
             "description": "Searches for a UniversalDoNotContact object for a given phone number. Shows whether inbound\/outbound actions are allowed for a given number",
@@ -1696,11 +1696,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da6aeaee95dbf569fdf9d1db6ca4b9ce",
+            "collectionId": "001610cd8bdced5609bc4dfcccc12f9d",
             "rawModeData": ""
         },
         {
-            "id": "ca3694ef098206ffc4ada2b85e5bd3e4",
+            "id": "aebace6d033db32b65fa674d433ea1c0",
             "name": "Delete do not contact (dnc) number. If number contains commas treat as list of numbers",
             "url": "httpswww.callfire.com\/v2\/contacts\/dncs\/{number}",
             "description": "Delete a Do Not Contact (DNC) contact entry.",
@@ -1727,11 +1727,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da6aeaee95dbf569fdf9d1db6ca4b9ce",
+            "collectionId": "001610cd8bdced5609bc4dfcccc12f9d",
             "rawModeData": ""
         },
         {
-            "id": "637beaf06fa32d22ccd2fcf1327af7f0",
+            "id": "a1ae9a0e1764dcccbdfc4b8f57a6dd61",
             "name": "Get do not contact (dnc)",
             "url": "httpswww.callfire.com\/v2\/contacts\/dncs\/{number}",
             "description": "Get Do Not Contact (DNC) object create by user. This DoNotContact entry only affects calls\/texts\/campaigns on this account.",
@@ -1758,11 +1758,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da6aeaee95dbf569fdf9d1db6ca4b9ce",
+            "collectionId": "001610cd8bdced5609bc4dfcccc12f9d",
             "rawModeData": ""
         },
         {
-            "id": "7e74be2c6f17dd6cb796746b2cf7e6d3",
+            "id": "4a909ca2a12cfce744aa847d8526e4f3",
             "name": "Update an individual do not contact (dnc) number",
             "url": "httpswww.callfire.com\/v2\/contacts\/dncs\/{number}",
             "description": "Update a Do Not Contact (DNC) contact entry. Can toggle whether the DNC is enabled for calls\/texts.",
@@ -1796,11 +1796,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da6aeaee95dbf569fdf9d1db6ca4b9ce",
+            "collectionId": "001610cd8bdced5609bc4dfcccc12f9d",
             "rawModeData": ""
         },
         {
-            "id": "05b0139791386d2750426a2039fdfc3e",
+            "id": "8e50267b50b6927a53cf59ea5cbc4104",
             "name": "Find contact lists",
             "url": "httpswww.callfire.com\/v2\/contacts\/lists",
             "description": "Searches for all contact lists which are available for the current user. Returns a paged list of contact lists",
@@ -1848,11 +1848,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da6aeaee95dbf569fdf9d1db6ca4b9ce",
+            "collectionId": "001610cd8bdced5609bc4dfcccc12f9d",
             "rawModeData": ""
         },
         {
-            "id": "9a1f7a415890b07d7068e778558e729f",
+            "id": "aff98fab9b631231a64598a30659a801",
             "name": "Create contact lists",
             "url": "httpswww.callfire.com\/v2\/contacts\/lists",
             "description": "Creates a contact list for use with campaigns using 1 of 3 inputs. A List of Contact objects, a list of String E.164 numbers, or a list of CallFire contactIds can be used as the data source for the created contact list. After contact list is added into the CallFire system, contact lists goes through seven system safeguards that check the accuracy and consistency of the data. For example, our system checks that contact number is formatted correctly, is valid, is not duplicated in another contact ",
@@ -1879,11 +1879,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da6aeaee95dbf569fdf9d1db6ca4b9ce",
+            "collectionId": "001610cd8bdced5609bc4dfcccc12f9d",
             "rawModeData": ""
         },
         {
-            "id": "8adf727fbb5b2ca11a409c5e04bda9db",
+            "id": "045c4b179db49a1c9b14d66d3e61ce70",
             "name": "Create contact list from file",
             "url": "httpswww.callfire.com\/v2\/contacts\/lists\/upload",
             "description": "Creates a contact list to be used with campaigns through uploading a .csv file. Returns the id of created list",
@@ -1924,11 +1924,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da6aeaee95dbf569fdf9d1db6ca4b9ce",
+            "collectionId": "001610cd8bdced5609bc4dfcccc12f9d",
             "rawModeData": ""
         },
         {
-            "id": "bef592fc2d53f11ff7b43343b9fa7e76",
+            "id": "b63240b78d1c38a058e4ccc83b4c9095",
             "name": "Delete a contact list",
             "url": "httpswww.callfire.com\/v2\/contacts\/lists\/{id}",
             "description": "Deletes a contact list, included contacts will not be deleted.",
@@ -1955,11 +1955,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da6aeaee95dbf569fdf9d1db6ca4b9ce",
+            "collectionId": "001610cd8bdced5609bc4dfcccc12f9d",
             "rawModeData": ""
         },
         {
-            "id": "5e271223d14ff28fa16bef0b842bdf7e",
+            "id": "3328b7f2021443c5eceab4d0e07ce328",
             "name": "Find a specific contact list",
             "url": "httpswww.callfire.com\/v2\/contacts\/lists\/{id}",
             "description": "Returns a single ContactList instance for a given contact list id",
@@ -1993,11 +1993,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da6aeaee95dbf569fdf9d1db6ca4b9ce",
+            "collectionId": "001610cd8bdced5609bc4dfcccc12f9d",
             "rawModeData": ""
         },
         {
-            "id": "e396a21591b63b2075e8c12a7b9b2716",
+            "id": "782b88fc0d2c08cfb2b382ea34a0aa34",
             "name": "Update a contact list",
             "url": "httpswww.callfire.com\/v2\/contacts\/lists\/{id}",
             "description": "Updates contact list instance.",
@@ -2031,11 +2031,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da6aeaee95dbf569fdf9d1db6ca4b9ce",
+            "collectionId": "001610cd8bdced5609bc4dfcccc12f9d",
             "rawModeData": ""
         },
         {
-            "id": "44030ddc95cda33f786bb004d7e9862d",
+            "id": "0c322fc1268d24c45f519c476d98b4af",
             "name": "Delete contacts from a contact list",
             "url": "httpswww.callfire.com\/v2\/contacts\/lists\/{id}\/items",
             "description": "Deletes contacts from a contact list. List the contact ids in request to delete multiple contacts with one request.",
@@ -2069,11 +2069,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da6aeaee95dbf569fdf9d1db6ca4b9ce",
+            "collectionId": "001610cd8bdced5609bc4dfcccc12f9d",
             "rawModeData": ""
         },
         {
-            "id": "e8c24ed9eb20e8b5dbab44076885591d",
+            "id": "d2e2031b66433ab303a42ebf4e46eed4",
             "name": "Find contacts in a contact list",
             "url": "httpswww.callfire.com\/v2\/contacts\/lists\/{id}\/items",
             "description": "Searches for all entries in a contact list with specified id. Returns a paged list of contact entries",
@@ -2121,11 +2121,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da6aeaee95dbf569fdf9d1db6ca4b9ce",
+            "collectionId": "001610cd8bdced5609bc4dfcccc12f9d",
             "rawModeData": ""
         },
         {
-            "id": "9e19e72fff170d01ebf229c610c56885",
+            "id": "12a79421559198207c1ac87c53faa067",
             "name": "Add contacts to a contact list",
             "url": "httpswww.callfire.com\/v2\/contacts\/lists\/{id}\/items",
             "description": "Adds contacts to a contact list. Available contact sources are: list of the contact entities, list of ids of existing contacts in user's account, list of phone numbers in E.164 format (11-digits)",
@@ -2159,11 +2159,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da6aeaee95dbf569fdf9d1db6ca4b9ce",
+            "collectionId": "001610cd8bdced5609bc4dfcccc12f9d",
             "rawModeData": ""
         },
         {
-            "id": "f5fe978c483e6076d33c09776c273ce5",
+            "id": "571626340bccf610ca436422f486f845",
             "name": "Delete a contact from a contact list",
             "url": "httpswww.callfire.com\/v2\/contacts\/lists\/{id}\/items\/{contactId}",
             "description": "Deletes a single contact from a contact list",
@@ -2197,11 +2197,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da6aeaee95dbf569fdf9d1db6ca4b9ce",
+            "collectionId": "001610cd8bdced5609bc4dfcccc12f9d",
             "rawModeData": ""
         },
         {
-            "id": "3e76f51e22ae370d4d4688b53c3637f5",
+            "id": "ce8d3f1cf7fa9cb925e4f48b969615a0",
             "name": "Delete a contact",
             "url": "httpswww.callfire.com\/v2\/contacts\/{id}",
             "description": "Deletes a contact instance from account",
@@ -2228,11 +2228,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da6aeaee95dbf569fdf9d1db6ca4b9ce",
+            "collectionId": "001610cd8bdced5609bc4dfcccc12f9d",
             "rawModeData": ""
         },
         {
-            "id": "09d267a099917da118f85786101af55b",
+            "id": "53beae4a825780a146c950068c0a06e2",
             "name": "Find a specific contact",
             "url": "httpswww.callfire.com\/v2\/contacts\/{id}",
             "description": "Returns a Contact instance for a given contact id. Deleted contacts can be still retrieved but will be marked as deleted. Deleted contacts will not be shown in search request.",
@@ -2266,11 +2266,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da6aeaee95dbf569fdf9d1db6ca4b9ce",
+            "collectionId": "001610cd8bdced5609bc4dfcccc12f9d",
             "rawModeData": ""
         },
         {
-            "id": "a6854624ea60ca09b12d6339201e98c1",
+            "id": "44470b1837838b23f9d4112a936c23ea",
             "name": "Update a contact",
             "url": "httpswww.callfire.com\/v2\/contacts\/{id}",
             "description": "Updates a single contact instance with id specified",
@@ -2304,11 +2304,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da6aeaee95dbf569fdf9d1db6ca4b9ce",
+            "collectionId": "001610cd8bdced5609bc4dfcccc12f9d",
             "rawModeData": ""
         },
         {
-            "id": "500b4e51d8f859e49b51da64f9942a96",
+            "id": "cd06336d4b10d6978ba5f0509926fd15",
             "name": "Find a contact's history",
             "url": "httpswww.callfire.com\/v2\/contacts\/{id}\/history",
             "description": "Searches for all texts and calls attributed to a contact. Returns a list of calls and texts a contact has been involved with",
@@ -2356,11 +2356,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da6aeaee95dbf569fdf9d1db6ca4b9ce",
+            "collectionId": "001610cd8bdced5609bc4dfcccc12f9d",
             "rawModeData": ""
         },
         {
-            "id": "abf4e5acdf8ca97341db1f5e72648425",
+            "id": "e8aae1bb7b31c8a984800762b498dd3f",
             "name": "Find keywords",
             "url": "httpswww.callfire.com\/v2\/keywords",
             "description": "Searches for all keywords available for purchase on the CallFire platform. If a keyword appears in the response, it is available for purchase. List the 'keywords' in a query parameter to search for multiple keywords (at least one keyword should be sent in request)",
@@ -2387,11 +2387,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da6aeaee95dbf569fdf9d1db6ca4b9ce",
+            "collectionId": "001610cd8bdced5609bc4dfcccc12f9d",
             "rawModeData": ""
         },
         {
-            "id": "f6e7d9b365483ddad46acf0376bb5967",
+            "id": "d060e2967bb447dab9443410465d1f0d",
             "name": "Find keyword leases",
             "url": "httpswww.callfire.com\/v2\/keywords\/leases",
             "description": "Searches for all keywords owned by user. A keyword lease is the ownership information involving a keyword",
@@ -2432,11 +2432,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da6aeaee95dbf569fdf9d1db6ca4b9ce",
+            "collectionId": "001610cd8bdced5609bc4dfcccc12f9d",
             "rawModeData": ""
         },
         {
-            "id": "7eebd159e5497f7abd1d579e0457a495",
+            "id": "f0afbd74545b1809a4bce0e3b0dffed5",
             "name": "Find a specific lease",
             "url": "httpswww.callfire.com\/v2\/keywords\/leases\/{keyword}",
             "description": "Searches for all keywords owned by user",
@@ -2470,11 +2470,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da6aeaee95dbf569fdf9d1db6ca4b9ce",
+            "collectionId": "001610cd8bdced5609bc4dfcccc12f9d",
             "rawModeData": ""
         },
         {
-            "id": "d375257580bfdc90c6a59dbff0f1a9de",
+            "id": "39d3381ddd85813afa4f15ab1afe1aea",
             "name": "Update a lease",
             "url": "httpswww.callfire.com\/v2\/keywords\/leases\/{keyword}",
             "description": "Updates a keyword lease. Turns the autoRenew on\/off.",
@@ -2508,11 +2508,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da6aeaee95dbf569fdf9d1db6ca4b9ce",
+            "collectionId": "001610cd8bdced5609bc4dfcccc12f9d",
             "rawModeData": ""
         },
         {
-            "id": "da37fc11fff1eb151c2abc506db9ed28",
+            "id": "b9e5485bb19d85570835183dc67315c6",
             "name": "Check for a specific keyword",
             "url": "httpswww.callfire.com\/v2\/keywords\/{keyword}\/available",
             "description": "Searches for the specific keyword to purchase on the CallFire platform. Returns 'true' if keyword is available.",
@@ -2539,11 +2539,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da6aeaee95dbf569fdf9d1db6ca4b9ce",
+            "collectionId": "001610cd8bdced5609bc4dfcccc12f9d",
             "rawModeData": ""
         },
         {
-            "id": "1477f3651811bb2084ec96bedb3b9d4a",
+            "id": "8b377e4ff9444ab0a304ae890b6203f8",
             "name": "Find account details",
             "url": "httpswww.callfire.com\/v2\/me\/account",
             "description": "Searches for the user account details. Details include name, email, and basic account permissions",
@@ -2562,11 +2562,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da6aeaee95dbf569fdf9d1db6ca4b9ce",
+            "collectionId": "001610cd8bdced5609bc4dfcccc12f9d",
             "rawModeData": ""
         },
         {
-            "id": "0b6205c1e6c2e99166f18abb5af5b071",
+            "id": "6a5f1004bb869b1e003f48a26e4da785",
             "name": "Find api credentials",
             "url": "httpswww.callfire.com\/v2\/me\/api\/credentials",
             "description": "Searches for all credentials generated by user. Returns a paged list of the API credentials. Only ACCOUNT_HOLDER can invoke this API",
@@ -2607,11 +2607,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da6aeaee95dbf569fdf9d1db6ca4b9ce",
+            "collectionId": "001610cd8bdced5609bc4dfcccc12f9d",
             "rawModeData": ""
         },
         {
-            "id": "aedcf5ba1dfc24c0a70bd346d5e29d13",
+            "id": "6df89657e2d6140040822ea70a526c81",
             "name": "Create api credentials",
             "url": "httpswww.callfire.com\/v2\/me\/api\/credentials",
             "description": "Creates an API credentials for the CallFire API. This endpoint requires full CallFire account credentials to be used, authenticated using Basic Authentication. At the moment user provides only the name for the credentials. The generated credentials can be used to access any CallFire APIs",
@@ -2638,11 +2638,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da6aeaee95dbf569fdf9d1db6ca4b9ce",
+            "collectionId": "001610cd8bdced5609bc4dfcccc12f9d",
             "rawModeData": ""
         },
         {
-            "id": "05725ef4b8ec7c563d132cd686ce1165",
+            "id": "26ed92ef7d71809a9c3a530e41867093",
             "name": "Delete api credentials",
             "url": "httpswww.callfire.com\/v2\/me\/api\/credentials\/{id}",
             "description": "Deletes a specified API credential. Currently, removes the ability to access the API. Only ACCOUNT_HOLDER can invoke this API",
@@ -2669,11 +2669,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da6aeaee95dbf569fdf9d1db6ca4b9ce",
+            "collectionId": "001610cd8bdced5609bc4dfcccc12f9d",
             "rawModeData": ""
         },
         {
-            "id": "8486db94ca0e6faebf91bdc9eddff5bf",
+            "id": "4db3d29016292be2b974bbbc2ec3d7d2",
             "name": "Find a specific api credential",
             "url": "httpswww.callfire.com\/v2\/me\/api\/credentials\/{id}",
             "description": "Returns an API credential instance for a given api credential id. Only ACCOUNT_HOLDER can invoke this API",
@@ -2707,11 +2707,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da6aeaee95dbf569fdf9d1db6ca4b9ce",
+            "collectionId": "001610cd8bdced5609bc4dfcccc12f9d",
             "rawModeData": ""
         },
         {
-            "id": "0894cf88c112e25fa46ba6b7cc327f09",
+            "id": "3d79417d58e0ecf09adf30a04f13ad13",
             "name": "Find credit usage",
             "url": "httpswww.callfire.com\/v2\/me\/billing\/credit-usage",
             "description": "Find credit usage for the user. Returns credits usage for time period specified or if unspecified then total for all time.",
@@ -2745,11 +2745,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da6aeaee95dbf569fdf9d1db6ca4b9ce",
+            "collectionId": "001610cd8bdced5609bc4dfcccc12f9d",
             "rawModeData": ""
         },
         {
-            "id": "dd5d599fa1e131f4ee2f70e72ce4996c",
+            "id": "16b3b5f987813589a01cd78a304929bd",
             "name": "Find plan usage",
             "url": "httpswww.callfire.com\/v2\/me\/billing\/plan-usage",
             "description": "Searches for the data of a billing plan usage for the user. Returns the data of a billing plan usage for the current month",
@@ -2768,11 +2768,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da6aeaee95dbf569fdf9d1db6ca4b9ce",
+            "collectionId": "001610cd8bdced5609bc4dfcccc12f9d",
             "rawModeData": ""
         },
         {
-            "id": "0232cf77ddef6857d95cba7c5410229e",
+            "id": "64665a63b39ca9723cd9617ab5dd3ff1",
             "name": "Find caller ids",
             "url": "httpswww.callfire.com\/v2\/me\/callerids",
             "description": "Returns a list of verified caller ids. If the number is not shown in the list, then it is not verified. In this case sending of a verification code is required.",
@@ -2791,11 +2791,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da6aeaee95dbf569fdf9d1db6ca4b9ce",
+            "collectionId": "001610cd8bdced5609bc4dfcccc12f9d",
             "rawModeData": ""
         },
         {
-            "id": "0c869a25dcfbd02a1b90f15bfb20d740",
+            "id": "5d73cac06c38e7dce8b84cc8f9a45fc1",
             "name": "Create a caller id",
             "url": "httpswww.callfire.com\/v2\/me\/callerids\/{callerid}",
             "description": "Generates and sends a verification code to the phone number provided in the path. The verification code is delivered via a phone call. This code needs to be submitted to the verify caller id API endpoint to complete verification.",
@@ -2822,11 +2822,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da6aeaee95dbf569fdf9d1db6ca4b9ce",
+            "collectionId": "001610cd8bdced5609bc4dfcccc12f9d",
             "rawModeData": ""
         },
         {
-            "id": "a93ff3126b47a299da5c4d13cf3cc5cd",
+            "id": "8c3400ba377874452936aa00355dc415",
             "name": "Verify a caller id",
             "url": "httpswww.callfire.com\/v2\/me\/callerids\/{callerid}\/verification-code",
             "description": "With the verification code received from the Create caller id endpoint, a call to this endpoint is required to finish verification",
@@ -2860,11 +2860,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da6aeaee95dbf569fdf9d1db6ca4b9ce",
+            "collectionId": "001610cd8bdced5609bc4dfcccc12f9d",
             "rawModeData": ""
         },
         {
-            "id": "07f582ede69e0d9930be9f518931db9d",
+            "id": "07e6bae284e7ac20ad89f21e6df8fdc7",
             "name": "Create media",
             "url": "httpswww.callfire.com\/v2\/media",
             "description": "Uploads media file to account, acceptable media formats: bmp, gif, jpg, m4a, mp3, mp4, png, wav",
@@ -2898,11 +2898,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da6aeaee95dbf569fdf9d1db6ca4b9ce",
+            "collectionId": "001610cd8bdced5609bc4dfcccc12f9d",
             "rawModeData": ""
         },
         {
-            "id": "34511f6927a07d4417536884d13a998b",
+            "id": "16cecb9b5a51c871560c81ed0923cb16",
             "name": "Download media by extension",
             "url": "httpswww.callfire.com\/v2\/media\/public\/{key}.{extension}",
             "description": "Download a media file. Available types of files: bmp, gif, jpg, m4a, mp3, mp4, png, wav. Content type in response depends on 'extension' parameter, e.g. image\/jpeg, image\/png, audio\/mp3, etc",
@@ -2936,11 +2936,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da6aeaee95dbf569fdf9d1db6ca4b9ce",
+            "collectionId": "001610cd8bdced5609bc4dfcccc12f9d",
             "rawModeData": ""
         },
         {
-            "id": "b9e56260aef58f96fe38c86cab3e46bd",
+            "id": "0dee2c3178ac3e677b36c07d7f3c1fda",
             "name": "Get a specific media",
             "url": "httpswww.callfire.com\/v2\/media\/{id}",
             "description": "Get media resource by id",
@@ -2974,11 +2974,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da6aeaee95dbf569fdf9d1db6ca4b9ce",
+            "collectionId": "001610cd8bdced5609bc4dfcccc12f9d",
             "rawModeData": ""
         },
         {
-            "id": "087e25b236904abd5e96e6ef2417d763",
+            "id": "78816c0b2327016549d36a2f2c276abf",
             "name": "Download media by extension",
             "url": "httpswww.callfire.com\/v2\/media\/{id}.{extension}",
             "description": "Download a media file. Available types of files: bmp, gif, jpg, m4a, mp3, mp4, png, wav. Content type in response depends on 'extension' parameter, e.g. image\/jpeg, image\/png, audio\/mp3, etc",
@@ -3012,11 +3012,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da6aeaee95dbf569fdf9d1db6ca4b9ce",
+            "collectionId": "001610cd8bdced5609bc4dfcccc12f9d",
             "rawModeData": ""
         },
         {
-            "id": "00c7019971cfed3ece582c51aaa96d57",
+            "id": "d0d7b00119e5f7744de0c00b347a68d5",
             "name": "Download a MP3 media",
             "url": "httpswww.callfire.com\/v2\/media\/{id}\/file",
             "description": "Download a MP3 media, endpoint returns application\/binary content-type",
@@ -3043,11 +3043,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da6aeaee95dbf569fdf9d1db6ca4b9ce",
+            "collectionId": "001610cd8bdced5609bc4dfcccc12f9d",
             "rawModeData": ""
         },
         {
-            "id": "ffc91e976d0ae2daa7cbc8cdc6cd1e65",
+            "id": "47fdf69b49f2e5aaf46950441bf2a4c0",
             "name": "Find leases",
             "url": "httpswww.callfire.com\/v2\/numbers\/leases",
             "description": "Searches for all numbers leased by account user. This API is useful for finding all numbers currently owned by the user. Returns a paged list of number leases.",
@@ -3137,11 +3137,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da6aeaee95dbf569fdf9d1db6ca4b9ce",
+            "collectionId": "001610cd8bdced5609bc4dfcccc12f9d",
             "rawModeData": ""
         },
         {
-            "id": "f994a5a7b0e945c008ec93606d310697",
+            "id": "8c627ef344c19bbc3fd4565f821ebd2a",
             "name": "Find lease configs",
             "url": "httpswww.callfire.com\/v2\/numbers\/leases\/configs",
             "description": "Searches for all number lease configs for the user. Returns a paged list of NumberConfig",
@@ -3231,11 +3231,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da6aeaee95dbf569fdf9d1db6ca4b9ce",
+            "collectionId": "001610cd8bdced5609bc4dfcccc12f9d",
             "rawModeData": ""
         },
         {
-            "id": "fc892500382824ce66b45a189fb5d8d2",
+            "id": "3103a3fd2cd6e85a51bfff41f667f78c",
             "name": "Find a specific lease config",
             "url": "httpswww.callfire.com\/v2\/numbers\/leases\/configs\/{number}",
             "description": "Returns a single NumberConfig instance for a given number lease",
@@ -3269,11 +3269,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da6aeaee95dbf569fdf9d1db6ca4b9ce",
+            "collectionId": "001610cd8bdced5609bc4dfcccc12f9d",
             "rawModeData": ""
         },
         {
-            "id": "f7e25c2115e37a9f755f616c76580820",
+            "id": "d0b4923e14121cab9fae6335f7b770d4",
             "name": "Update a lease config",
             "url": "httpswww.callfire.com\/v2\/numbers\/leases\/configs\/{number}",
             "description": "Updates a phone number lease configuration. Use this API endpoint to add an Inbound IVR or Call Tracking feature to a CallFire phone number. Call tracking configuration allows you to track the incoming calls, to analyze and to respond customers using sms or voice replies. For more information see [call tracking page](https:\/\/www.callfire.com\/products\/call-tracking)",
@@ -3307,11 +3307,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da6aeaee95dbf569fdf9d1db6ca4b9ce",
+            "collectionId": "001610cd8bdced5609bc4dfcccc12f9d",
             "rawModeData": ""
         },
         {
-            "id": "81aff18252134d1af454a2ccdd2ccaae",
+            "id": "a59bc5059982735be0f82c4663c52f97",
             "name": "Find a specific lease",
             "url": "httpswww.callfire.com\/v2\/numbers\/leases\/{number}",
             "description": "Returns a single NumberLease instance for a given number",
@@ -3345,11 +3345,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da6aeaee95dbf569fdf9d1db6ca4b9ce",
+            "collectionId": "001610cd8bdced5609bc4dfcccc12f9d",
             "rawModeData": ""
         },
         {
-            "id": "cc46d2cb91a1fdb4d2a3708e8483d2a5",
+            "id": "82618878428759244e2cc4b7724febc9",
             "name": "Update a lease",
             "url": "httpswww.callfire.com\/v2\/numbers\/leases\/{number}",
             "description": "Updates a number lease instance. Ability to turn on\/off autoRenew and toggle call\/text features for a particular number",
@@ -3383,11 +3383,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da6aeaee95dbf569fdf9d1db6ca4b9ce",
+            "collectionId": "001610cd8bdced5609bc4dfcccc12f9d",
             "rawModeData": ""
         },
         {
-            "id": "2450cb30f36bf4dc78b5f7b746facfcf",
+            "id": "24c92f3f037016a88fb04a4f6ac56290",
             "name": "Find local numbers",
             "url": "httpswww.callfire.com\/v2\/numbers\/local",
             "description": "Searches for numbers available for purchase in CallFire local numbers catalog . At least one additional parameter is required. User may filter local numbers by their region information.",
@@ -3463,11 +3463,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da6aeaee95dbf569fdf9d1db6ca4b9ce",
+            "collectionId": "001610cd8bdced5609bc4dfcccc12f9d",
             "rawModeData": ""
         },
         {
-            "id": "a80ff785ab077b5fe09f96a8e9d1bc86",
+            "id": "87e9f6e6e1277a0df757d25142bf41aa",
             "name": "Find number regions",
             "url": "httpswww.callfire.com\/v2\/numbers\/regions",
             "description": "Searches for region information. Use this API to obtain detailed region information that can be used to query for more specific phone numbers than a general query.",
@@ -3550,11 +3550,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da6aeaee95dbf569fdf9d1db6ca4b9ce",
+            "collectionId": "001610cd8bdced5609bc4dfcccc12f9d",
             "rawModeData": ""
         },
         {
-            "id": "ff2710c487a7fff7ba1e89bfd8484881",
+            "id": "f5378b45ba55c3002b03cc3450e6796c",
             "name": "Find tollfree numbers",
             "url": "httpswww.callfire.com\/v2\/numbers\/tollfree",
             "description": "Searches for the toll free numbers which are available for purchase in the CallFire catalog",
@@ -3595,11 +3595,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da6aeaee95dbf569fdf9d1db6ca4b9ce",
+            "collectionId": "001610cd8bdced5609bc4dfcccc12f9d",
             "rawModeData": ""
         },
         {
-            "id": "6104cf684a6ee2374ab17860b52f41c6",
+            "id": "0b94be98eb3ca8dc6c935ccb5f026d94",
             "name": "Purchase keywords",
             "url": "httpswww.callfire.com\/v2\/orders\/keywords",
             "description": "Purchase keywords. Send a list of available keywords into this API to purchase them using CallFire credits. Make sure the account has enough credits before trying to purchase the keywords",
@@ -3626,11 +3626,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da6aeaee95dbf569fdf9d1db6ca4b9ce",
+            "collectionId": "001610cd8bdced5609bc4dfcccc12f9d",
             "rawModeData": ""
         },
         {
-            "id": "5db2f018d90fff2dffd1a7904df67b8a",
+            "id": "b839c3e74298576c9af72961af249825",
             "name": "Purchase numbers",
             "url": "httpswww.callfire.com\/v2\/orders\/numbers",
             "description": "Purchase numbers. There are many ways to purchase a number. Set either 'tollFreeCount' or 'localCount' along with some querying fields to purchase numbers by bulk query. Set the list of numbers to purchase by list. Available numbers will be purchased using CallFire credits owned by the user. Make sure the account has enough credits before trying to purchase",
@@ -3657,11 +3657,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da6aeaee95dbf569fdf9d1db6ca4b9ce",
+            "collectionId": "001610cd8bdced5609bc4dfcccc12f9d",
             "rawModeData": ""
         },
         {
-            "id": "35a8e70363e9408b9d139b598dadc1a0",
+            "id": "e63eeee92da1392e4e4d0bba57fb3917",
             "name": "Find a specific order",
             "url": "httpswww.callfire.com\/v2\/orders\/{id}",
             "description": "Returns a single NumberOrder instance for a given order id. Order contains information about purchased keywords, local, toll-free numbers",
@@ -3695,11 +3695,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da6aeaee95dbf569fdf9d1db6ca4b9ce",
+            "collectionId": "001610cd8bdced5609bc4dfcccc12f9d",
             "rawModeData": ""
         },
         {
-            "id": "b326945900f0409c9f3b584beff1b8f4",
+            "id": "00e97f208fe4f26822d16f21685c76ab",
             "name": "Find texts",
             "url": "httpswww.callfire.com\/v2\/texts",
             "description": "Searches for texts sent or received by user. Use \"campaignId=0\" parameter to query for all texts sent through the POST \/texts API. See [call states and results](https:\/\/developers.callfire.com\/results-responses-errors.html)",
@@ -3817,11 +3817,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da6aeaee95dbf569fdf9d1db6ca4b9ce",
+            "collectionId": "001610cd8bdced5609bc4dfcccc12f9d",
             "rawModeData": ""
         },
         {
-            "id": "0c2a617a8284fda07b2432ab016b941f",
+            "id": "9e3a00f19d69cf05410ed819557377bc",
             "name": "Send texts",
             "url": "httpswww.callfire.com\/v2\/texts",
             "description": "Use the \/texts API to send individual texts quickly. By default all texts are going out from CallFire's dedicated short code 67076",
@@ -3876,11 +3876,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da6aeaee95dbf569fdf9d1db6ca4b9ce",
+            "collectionId": "001610cd8bdced5609bc4dfcccc12f9d",
             "rawModeData": ""
         },
         {
-            "id": "ec21cc814eec0a9ea6ea256a4b726fd3",
+            "id": "53350cd470545dd102eb8f00022d48e4",
             "name": "Find auto replies",
             "url": "httpswww.callfire.com\/v2\/texts\/auto-replys",
             "description": "Find all text autoreplies created by user. Returns a paged list of TextAutoReply",
@@ -3928,11 +3928,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da6aeaee95dbf569fdf9d1db6ca4b9ce",
+            "collectionId": "001610cd8bdced5609bc4dfcccc12f9d",
             "rawModeData": ""
         },
         {
-            "id": "d5002bdaf8cf61a6454f4e262bf535c0",
+            "id": "72953a35684f465ab7ad0a1655c1903e",
             "name": "Create an auto reply",
             "url": "httpswww.callfire.com\/v2\/texts\/auto-replys",
             "description": "CallFire gives you possibility to set up auto reply messages for your numbers and keywords. You can set a general auto reply for anyone who texts your number, keyword, and\/or include a text to match, so that the auto reply would be sent only to those who text the matched text",
@@ -3959,11 +3959,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da6aeaee95dbf569fdf9d1db6ca4b9ce",
+            "collectionId": "001610cd8bdced5609bc4dfcccc12f9d",
             "rawModeData": ""
         },
         {
-            "id": "f27997e44524aff3f88950e4ed75ebce",
+            "id": "a9f43f698c75c4b0a6fce4c8f18fd752",
             "name": "Delete an auto reply",
             "url": "httpswww.callfire.com\/v2\/texts\/auto-replys\/{id}",
             "description": "Deletes a text auto reply and removes the configuration. Can not delete a TextAutoReply which is currently active for a campaign",
@@ -3990,11 +3990,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da6aeaee95dbf569fdf9d1db6ca4b9ce",
+            "collectionId": "001610cd8bdced5609bc4dfcccc12f9d",
             "rawModeData": ""
         },
         {
-            "id": "7ffc4df404c8ecc12a2d86f204d3992f",
+            "id": "03354aae4818e97cff3fed177e195ef7",
             "name": "Find a specific auto reply",
             "url": "httpswww.callfire.com\/v2\/texts\/auto-replys\/{id}",
             "description": "Returns a single TextAutoReply instance for a given text auto reply id",
@@ -4028,11 +4028,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da6aeaee95dbf569fdf9d1db6ca4b9ce",
+            "collectionId": "001610cd8bdced5609bc4dfcccc12f9d",
             "rawModeData": ""
         },
         {
-            "id": "368eff992b710dc14ad17c9e54a1d150",
+            "id": "9e8438f2c138dd7faf81b6afd5f82f04",
             "name": "Find text broadcasts",
             "url": "httpswww.callfire.com\/v2\/texts\/broadcasts",
             "description": "Searches for all text broadcasts created by user. Can query on label, name, and the current running status of the campaign. Returns a paged list of text broadcasts",
@@ -4094,11 +4094,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da6aeaee95dbf569fdf9d1db6ca4b9ce",
+            "collectionId": "001610cd8bdced5609bc4dfcccc12f9d",
             "rawModeData": ""
         },
         {
-            "id": "35d0282ec768775530fef6ebd14cdb02",
+            "id": "51a111366a554702e0b9a06972dd5709",
             "name": "Create a text broadcast",
             "url": "httpswww.callfire.com\/v2\/texts\/broadcasts",
             "description": "Creates a text broadcast campaign using the Text Broadcast API. Send a TextBroadcast object in the message body to detail a text broadcast campaign. A campaign can be created without contacts and with bare minimum configuration, but contacts have to be added further on to use the campaign. It supports scheduling, retry logic, pattern-based messages.",
@@ -4139,11 +4139,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da6aeaee95dbf569fdf9d1db6ca4b9ce",
+            "collectionId": "001610cd8bdced5609bc4dfcccc12f9d",
             "rawModeData": ""
         },
         {
-            "id": "eb9f7ad182293475c0b623f8740e2bbc",
+            "id": "b3eea55f5634eb16a2b03571bbc66a11",
             "name": "Find a specific text broadcast",
             "url": "httpswww.callfire.com\/v2\/texts\/broadcasts\/{id}",
             "description": "Returns a single TextBroadcast instance for a given text broadcast id",
@@ -4177,11 +4177,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da6aeaee95dbf569fdf9d1db6ca4b9ce",
+            "collectionId": "001610cd8bdced5609bc4dfcccc12f9d",
             "rawModeData": ""
         },
         {
-            "id": "9e5649de6ac6ecc7dea0c5a044ae8104",
+            "id": "3bfcf0e28f8eaf33247ca0b018fe912d",
             "name": "Update a text broadcast",
             "url": "httpswww.callfire.com\/v2\/texts\/broadcasts\/{id}",
             "description": "Allows modifying the configuration of existing text broadcast campaign. See TextBroadcast for more information on what can\/can't be updated on this API",
@@ -4222,11 +4222,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da6aeaee95dbf569fdf9d1db6ca4b9ce",
+            "collectionId": "001610cd8bdced5609bc4dfcccc12f9d",
             "rawModeData": ""
         },
         {
-            "id": "d6471cd3fd4d422cbdba3b645652e6bd",
+            "id": "3ac8d13f82c3b26c10934f9e3191171b",
             "name": "Archive text broadcast",
             "url": "httpswww.callfire.com\/v2\/texts\/broadcasts\/{id}\/archive",
             "description": "Archives a text broadcast (and hides it in the search results)",
@@ -4253,11 +4253,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da6aeaee95dbf569fdf9d1db6ca4b9ce",
+            "collectionId": "001610cd8bdced5609bc4dfcccc12f9d",
             "rawModeData": ""
         },
         {
-            "id": "b3c5f1fe473ff2136e12c9d967eaeedf",
+            "id": "f16bfb31352f7f2d30772f1d4ad5df9b",
             "name": "Find batches in a text broadcast",
             "url": "httpswww.callfire.com\/v2\/texts\/broadcasts\/{id}\/batches",
             "description": "This endpoint will enable the user to page through all of the batches for a particular text broadcast campaign",
@@ -4305,11 +4305,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da6aeaee95dbf569fdf9d1db6ca4b9ce",
+            "collectionId": "001610cd8bdced5609bc4dfcccc12f9d",
             "rawModeData": ""
         },
         {
-            "id": "846d04cdb95bc2111aaa45124dc765e5",
+            "id": "6f19866ac994609432522748fffc9182",
             "name": "Add batches to a text broadcast",
             "url": "httpswww.callfire.com\/v2\/texts\/broadcasts\/{id}\/batches",
             "description": "Allows adding an extra batches to an already created text broadcast campaign. The batches which being  added pass the CallFire validation process (unlike in the recipients version of this API). That is why using of a scrubDuplicates flag remove duplicates from your batch. Batches may be added as a contact list id, a list of contact ids, or a list of numbers",
@@ -4350,11 +4350,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da6aeaee95dbf569fdf9d1db6ca4b9ce",
+            "collectionId": "001610cd8bdced5609bc4dfcccc12f9d",
             "rawModeData": ""
         },
         {
-            "id": "2b6a4c75bd68a2ac2148350a0330434c",
+            "id": "431c06b8416523444b65de117ded0e72",
             "name": "Add recipients to a text broadcast",
             "url": "httpswww.callfire.com\/v2\/texts\/broadcasts\/{id}\/recipients",
             "description": "Use this API to add recipients to a text broadcast which is already created. Post a list of Recipient objects to be immediately added to the text broadcast campaign. These contacts will not go through validation process, and will be acted upon as they are added. Recipients may be added as a list of contact ids, or list of numbers",
@@ -4402,11 +4402,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da6aeaee95dbf569fdf9d1db6ca4b9ce",
+            "collectionId": "001610cd8bdced5609bc4dfcccc12f9d",
             "rawModeData": ""
         },
         {
-            "id": "8bcc811ce063e98c2d2fab86cf9b325f",
+            "id": "d4e0ba9fac76af4e115557aa9c72eb0b",
             "name": "Start text broadcast",
             "url": "httpswww.callfire.com\/v2\/texts\/broadcasts\/{id}\/start",
             "description": "Starts a text broadcast",
@@ -4433,11 +4433,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da6aeaee95dbf569fdf9d1db6ca4b9ce",
+            "collectionId": "001610cd8bdced5609bc4dfcccc12f9d",
             "rawModeData": ""
         },
         {
-            "id": "a5300c5d895a451ab387bab4e434cb6f",
+            "id": "19b6cff8bd9b7539a394f2d7d07c2180",
             "name": "Get statistics on text broadcast",
             "url": "httpswww.callfire.com\/v2\/texts\/broadcasts\/{id}\/stats",
             "description": "Returns the broadcast statistics. Example: total number of the sent\/received actions, total cost, number of remaining outbound actions, error count, etc",
@@ -4485,11 +4485,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da6aeaee95dbf569fdf9d1db6ca4b9ce",
+            "collectionId": "001610cd8bdced5609bc4dfcccc12f9d",
             "rawModeData": ""
         },
         {
-            "id": "88536e0fd9911fd17a08aaffacb290e2",
+            "id": "8a3b6285803b58fc6819535820e3441d",
             "name": "Stop text broadcast",
             "url": "httpswww.callfire.com\/v2\/texts\/broadcasts\/{id}\/stop",
             "description": "Stops a text broadcast",
@@ -4516,11 +4516,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da6aeaee95dbf569fdf9d1db6ca4b9ce",
+            "collectionId": "001610cd8bdced5609bc4dfcccc12f9d",
             "rawModeData": ""
         },
         {
-            "id": "e914bc22ccdcc05822c8e8c3632d9d26",
+            "id": "a681f21e39bfa37dfed9617fb15dece3",
             "name": "Find texts in a text broadcast",
             "url": "httpswww.callfire.com\/v2\/texts\/broadcasts\/{id}\/texts",
             "description": "This endpoint will enable the user to page through all of the texts for a particular text broadcast campaign",
@@ -4575,11 +4575,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da6aeaee95dbf569fdf9d1db6ca4b9ce",
+            "collectionId": "001610cd8bdced5609bc4dfcccc12f9d",
             "rawModeData": ""
         },
         {
-            "id": "14049074772c990134dab042e98526b0",
+            "id": "876d82b26f88a0cea8ec074b05a64913",
             "name": "Find a specific text",
             "url": "httpswww.callfire.com\/v2\/texts\/{id}",
             "description": "Returns a single Text instance for a given text id",
@@ -4613,11 +4613,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da6aeaee95dbf569fdf9d1db6ca4b9ce",
+            "collectionId": "001610cd8bdced5609bc4dfcccc12f9d",
             "rawModeData": ""
         },
         {
-            "id": "cdc7875bee28e1a1f0e7216436e46f0f",
+            "id": "98ad53f5b2982720a083f07e0903acca",
             "name": "Find webhooks",
             "url": "httpswww.callfire.com\/v2\/webhooks",
             "description": "Searches all webhooks available for a current user. Searches by name, resource, event, callback URL, or whether they are enabled. Returns a paged list of Webhooks",
@@ -4693,11 +4693,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da6aeaee95dbf569fdf9d1db6ca4b9ce",
+            "collectionId": "001610cd8bdced5609bc4dfcccc12f9d",
             "rawModeData": ""
         },
         {
-            "id": "a4adfee538f9c2209d41bfa9767b092b",
+            "id": "6d6d7f6b74697a07d66e18dabb646e54",
             "name": "Create a webhook",
             "url": "httpswww.callfire.com\/v2\/webhooks",
             "description": "Create a Webhook for notification in the CallFire system. Use the webhooks API to receive notifications of important CallFire events. Select the resource to listen to, and then choose the resource events to receive notifications on. When an event triggers, a POST will be made to the callback URL with a payload of notification information. Available resources and their events include 'CccCampaign': ['started', 'stopped', 'finished'], 'CallBroadcast': ['started', 'stopped', 'finished'], 'TextBroad",
@@ -4724,11 +4724,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da6aeaee95dbf569fdf9d1db6ca4b9ce",
+            "collectionId": "001610cd8bdced5609bc4dfcccc12f9d",
             "rawModeData": ""
         },
         {
-            "id": "d8c23457fd98e45f6c4bd672b33fe1bc",
+            "id": "c71c5ff6f82a7df5179cffb879ea13a0",
             "name": "Find webhook resources",
             "url": "httpswww.callfire.com\/v2\/webhooks\/resources",
             "description": "Searches for webhook resources. Available resources include 'CccCampaign': ['started', 'stopped', 'finished'], 'CallBroadcast': ['started', 'stopped', 'finished'], 'TextBroadcast': ['started', 'stopped', 'finished'], 'OutboundCall': ['finished'], 'InboundCall': ['finished'], 'OutboundText': ['finished'], 'InboundText': ['finished'], 'ContactList': ['validationFinished', 'validationFailed']",
@@ -4755,11 +4755,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da6aeaee95dbf569fdf9d1db6ca4b9ce",
+            "collectionId": "001610cd8bdced5609bc4dfcccc12f9d",
             "rawModeData": ""
         },
         {
-            "id": "7410a4ac9d7979b4dea22c829a6b5fee",
+            "id": "88d082b8b8e64c2328756862609eded5",
             "name": "Find specific webhook resource",
             "url": "httpswww.callfire.com\/v2\/webhooks\/resources\/{resource}",
             "description": "Returns information about supported events for a given webhook resource",
@@ -4793,11 +4793,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da6aeaee95dbf569fdf9d1db6ca4b9ce",
+            "collectionId": "001610cd8bdced5609bc4dfcccc12f9d",
             "rawModeData": ""
         },
         {
-            "id": "be2cb31e3f958477c5913140786a8e7c",
+            "id": "59b08cc476164f1511c0c60925daa8d4",
             "name": "Delete a webhook",
             "url": "httpswww.callfire.com\/v2\/webhooks\/{id}",
             "description": "Deletes a webhook instance. Will be removed permanently",
@@ -4824,11 +4824,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da6aeaee95dbf569fdf9d1db6ca4b9ce",
+            "collectionId": "001610cd8bdced5609bc4dfcccc12f9d",
             "rawModeData": ""
         },
         {
-            "id": "6a70e8a46d11ecf6b1fbf231b9f45c44",
+            "id": "80483cd287bf3f1469c07d325df26467",
             "name": "Find a specific webhook",
             "url": "httpswww.callfire.com\/v2\/webhooks\/{id}",
             "description": "Returns a single Webhook instance for a given webhook id",
@@ -4862,11 +4862,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da6aeaee95dbf569fdf9d1db6ca4b9ce",
+            "collectionId": "001610cd8bdced5609bc4dfcccc12f9d",
             "rawModeData": ""
         },
         {
-            "id": "da8eccb7228a76a33b8a7f780f9b48fb",
+            "id": "bf5a116154bed916a729a9e725991d03",
             "name": "Update a webhook",
             "url": "httpswww.callfire.com\/v2\/webhooks\/{id}",
             "description": "Updates the information in existing webhook",
@@ -4900,7 +4900,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da6aeaee95dbf569fdf9d1db6ca4b9ce",
+            "collectionId": "001610cd8bdced5609bc4dfcccc12f9d",
             "rawModeData": ""
         }
     ]
